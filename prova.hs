@@ -1,0 +1,1 @@
+pgsum x = foldl (\acc next -> acc + (x^next)) 0 [0..20]
